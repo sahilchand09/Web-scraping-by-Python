@@ -1,23 +1,26 @@
-# WEB-SCRAPING-BY-PYTHON
 # Amazon Product Web Scraper
 
-##  Overview
+## 📌 About
+A Python-based web scraper that extracts product details like Title, Price, Rating, and Reviews from Amazon product pages using `requests` and `BeautifulSoup`.
 
-This project is a Python-based web scraping application that extracts product details from an Amazon product page. The scraper sends an HTTP request to the product URL, parses the HTML content, and retrieves structured data including:
+## 🛠️ Tech Stack
+- Python
+- Requests
+- BeautifulSoup4
+- Pandas
+- Jupyter Notebook
 
-Product Name
+## 📊 What it Scrapes
+`Product Name, Price, Rating, Number of Reviews, Availability`
 
-Product Price
+## 🚀 How to Run
+1. `pip install -r requirements.txt`
+2. Open `webscraping.ipynb` and paste any Amazon product URL
+3. Run all cells. Data will be saved in `output.csv`
+4. Use `analysis.ipynb` for data analysis and visualization
 
-Product Rating
-
-Product Bullet Points
-
-Product Description
-
-Top Review
-
-The extracted data is then stored in a CSV file (output.csv) for further analysis or reporting.
+## ⚠️ Note
+Use responsibly. Don't scrape too many pages at once. Respect Amazon's robots.txt
 
 The scraper collects:
 
